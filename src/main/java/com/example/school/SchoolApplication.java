@@ -7,7 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SchoolApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SchoolApplication.class, args);
+		SpringApplication.run(SchoolApplication.class, args);//서버 실행 코드
+		System.out.println("수정사항");
 	} //서버 실행 코드
-
+	
 }
